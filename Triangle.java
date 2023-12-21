@@ -21,14 +21,11 @@ public class Triangle
 		IsTringle = ((sum1 < c) || (sum2 < b) || (sum3 < a));
 
 		System.out.println(a + ", " + b + ", " + c + ": " + !IsTringle);
-
-
-		
+	}
+}
 		/*
 		if((sum1 < c) || (sum2 < b) || (sum3 < a))		
 			System.out.println(a + ", " + b + ", " + c + ": " + !IsTringle);
 		else 
 			System.out.println(a + ", " + b + ", " + c + ": " + IsTringle);
-			*/
-	}
-}
+		*/

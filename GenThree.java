@@ -28,9 +28,9 @@ public class GenThree
 		mini = Math.min(mini, num3);
 
 		System.out.println("The minimal generated number was " + mini);
-
-
-		/*if(a > b)
+	}
+}
+ 		/*if(a > b)
 		{
 			a = a - 1;
 			num1 = ((int)(((Math.random() * (a - b + 1) + b))));
@@ -62,6 +62,3 @@ public class GenThree
 
 			System.out.println("The minimal generated number was " + supermin);
 		} */
-	}
-}
- 
