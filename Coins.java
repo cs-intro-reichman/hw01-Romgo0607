@@ -1,9 +1,11 @@
 
 public class Coins {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		int sum = Integer.parseInt(args[0]);
 
 		int coins, quaters;
+
 		quaters = sum/25;
 		coins = sum%25;
 

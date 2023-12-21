@@ -20,10 +20,10 @@ public class GenThree
 		num2 = ((int)(((Math.random() * (max - min + 1) + min))));
 		num3 = ((int)(((Math.random() * (max - min + 1) + min))));
 
-		int mini;
+		int mini = Math.min(num1, num2);
+		mini = Math.min(mini, num3);
 
-		mini = Math.min(num1, num2);
-		supermin = Math.min(mini, num3);
+		System.out.println("The minimal generated number was " + mini);
 
 
 		/*if(a > b)
