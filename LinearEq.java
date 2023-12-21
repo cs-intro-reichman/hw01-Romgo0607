@@ -15,6 +15,6 @@ public class LinearEq
 		double score = (c - b)/a;
 
 		System.out.println( a + " * x" + " + " + b + " = " + c);
-		System.out.println( " X = " + score);
+		System.out.println( "x = " + score);
 	}
 }
