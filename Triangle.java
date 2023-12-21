@@ -11,16 +11,24 @@ public class Triangle
 		int b = Integer.parseInt(args[1]);
 		int c = Integer.parseInt(args[2]);
 
-		boolean IsTringle = true;
-
 		int sum1, sum2, sum3;
 		sum1 = a + b;
 		sum2 = a + c;
 		sum3 = b + c;
 
-		if((sum1 < c) || (sum2 <b) || (sum3 < a))		
+		boolean IsTringle = true;
+
+		IsTringle = ((sum1 < c) || (sum2 < b) || (sum3 < a));
+
+		System.out.println(a + ", " + b + ", " + c + ": " + !IsTringle);
+
+
+		
+		/*
+		if((sum1 < c) || (sum2 < b) || (sum3 < a))		
 			System.out.println(a + ", " + b + ", " + c + ": " + !IsTringle);
 		else 
 			System.out.println(a + ", " + b + ", " + c + ": " + IsTringle);
+			*/
 	}
 }
